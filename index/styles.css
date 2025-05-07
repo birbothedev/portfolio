@@ -7,7 +7,6 @@
 body {
     background-color: #abebc6 ;
     font-family: calSans;
-    overflow: scroll;
 }
 
 h3 {
@@ -15,6 +14,8 @@ h3 {
     font-size: 3em;
     text-align: center; 
     margin-bottom: 0%;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 h2 {
     margin-top: 5%;
@@ -35,7 +36,21 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 20%;
     row-gap: 20%;
+}
+
+#tictactoeImage img, #intelligenceCheckImage img {
+    width: 100%; /* Makes the image fit its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes default inline spacing */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px; 
+}
+
+#tictactoeImage img:hover, #intelligenceCheckImage img:hover {
+    transform: translateY(-5px); /* moves image up slightly */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* deeper shadow on hover */
 }
