@@ -1,0 +1,41 @@
+@font-face {
+    font-family: calSans;
+    src: url(/index/font/CalSans-Regular.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: #abebc6 ;
+    font-family: calSans;
+    overflow: scroll;
+}
+
+h3 {
+    margin-top: 10%;
+    font-size: 3em;
+    text-align: center; 
+    margin-bottom: 0%;
+}
+h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2em;
+    text-align: center; 
+}
+
+p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20%;
+    row-gap: 20%;
+}
