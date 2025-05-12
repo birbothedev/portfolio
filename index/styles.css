@@ -43,9 +43,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20%;
-    row-gap: 20%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 5%;
 }
 
 .image-text-container img {
