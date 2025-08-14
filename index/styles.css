@@ -20,6 +20,9 @@ h3 {
 
 h4 {
     text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto;   
+    line-height: 1.5; 
 }
 
 .links {
