@@ -18,6 +18,10 @@ h3 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+h4 {
+    text-align: center; 
+}
+
 .links {
     text-align: center;
     margin-left: 10%;
